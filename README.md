@@ -1,5 +1,6 @@
-В проекте shop92 задание находится в текстовом файле HOMEWORK,
-база данных это файл - shop92.sql
+<h1>Описание</h1>
+<p>В проекте shop92 задание находится в текстовом файле HOMEWORK,
+база данных это файл - shop92.sql</p>
 <hr>
 
 <!--<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>-->
