@@ -7,7 +7,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Crossel_product ::class, function (Faker $faker) {
     return [
-        'product_id' => $faker->numberBetween(1, 10),
-        'crossel_id' => $faker->numberBetween(1, 10), 
+        'product_id' => '1',
+        'crossel_id' => '1', 
     ];
 });

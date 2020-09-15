@@ -11,11 +11,16 @@ class CreateCrosselProductsTable extends Migration
      *
      * @return void
      */
+
     public function up()
     {
         Schema::create('crossel_products', function (Blueprint $table) {
-            $table->foreignId('product_id');
-            $table->foreignId('crossel_id');
+            $table->unsignedBigInteger('crossel_id');
+            $table->foreign('crossel_id')->references('id')->on('products');
+            $table->unsignedBigInteger('product_id');
+            $table->foreign('product_id')->references('id')->on('products');
+            $table->primary(['product_id', 'crossel_id']);
+            
         });
     }
 
